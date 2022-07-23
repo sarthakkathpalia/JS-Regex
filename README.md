@@ -14,4 +14,3 @@ The following is the example of patterns which can be validated:-
 
 1 555 555 5555
 ```
-

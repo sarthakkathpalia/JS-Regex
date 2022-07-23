@@ -1,6 +1,6 @@
 function validate(){
     let username = document.getElementById("uname").value;
-    let regx = /^[7-9]\d{9}$/;
+    let regx = /^(1\s?)?(\d{3}|(\(\d{3}\)))[\-\s]?\d{3}[\-\s]?\d{4}$/;
     if(regx.test(username)){
         document.getElementById("lbluser").innerHTML="Valid"
         document.getElementById("lbluser").style.visibility="visible"
